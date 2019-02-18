@@ -1,0 +1,28 @@
+language: node_js
+node_js:
+  - node
+script:
+  - npm install
+  - npm run build
+  - printf '.gitignore\ndeployed*' > dist/.gitignore
+  - cp 'README.md' dist
+branches:
+  only:
+    - /^v\d+\.\d+(\.\d+)?(-\S*)?$/
+deploy:
+  - provider: releases
+    api_key:
+      secure: eO+aD58RzYufa653UssBS7+f4W5kshjXwG6TixqaNT2UfG24E2VNflR14K8J13PLV4mLE0pE/3fUd2ukAgApBBHmFBzaIHR7BWxaJzar2ZhXFUg0AT5dptfA2q9avlLdpW6uHcZ1Wa9xj4aycyrtD7QK/iBrf/35l3sQO+vJlES5sWN3l6/4J/tUZKVlWafzKPBISf+Z6E02/Mx34Y0MDvIcIOqlODa3vRe4UwctphH6/qaaWqwD5ewy7p9Y8X9RdEn6JCNh31IJaCIYIyd0LGbBW3wusnMpfE2xwuvI3JI4hfQwM1rJoT77ZJXw8LkSAa8Dce9sZpVl+94gV/V8PzIba3cJP7MQnabMCAbtnsLUNHJQUiHEw+aR4b0WC+UuUXvgmhJ4PYC86pHE9sfQ0Uszhd/HyqFYbgbvHk5s0BG/A1qEXsgA6ObYk+TdBUY7NXd+Q0oCHMi5323tcdP6oZBa8zO18BTSKZkDqGdqtNEjDyG+Tj0/mgrSDskJVcYDIw0L08P/pq+muyhdnTacEHaMIEvvlKwK5LYhER08njttr+YbdRSbRlBYRydiR0XRFjIEfjdIYbR6nGfTR1ZyFB05fFex4OshZGwHQMCghl/ktfCUAREKP4HTU55sU58NOr8Zq4gdw6qBj0hCYX9oiVoYKmlRp1HW6NQXdeCpTgs=
+    skip_cleanup: true
+    file:
+      - 'production.zip'
+    on:
+      tags: true
+  - provider: pages
+    skip_cleanup: true
+    local_dir: dist
+    target_branch: master
+    github_token:
+      secure: eO+aD58RzYufa653UssBS7+f4W5kshjXwG6TixqaNT2UfG24E2VNflR14K8J13PLV4mLE0pE/3fUd2ukAgApBBHmFBzaIHR7BWxaJzar2ZhXFUg0AT5dptfA2q9avlLdpW6uHcZ1Wa9xj4aycyrtD7QK/iBrf/35l3sQO+vJlES5sWN3l6/4J/tUZKVlWafzKPBISf+Z6E02/Mx34Y0MDvIcIOqlODa3vRe4UwctphH6/qaaWqwD5ewy7p9Y8X9RdEn6JCNh31IJaCIYIyd0LGbBW3wusnMpfE2xwuvI3JI4hfQwM1rJoT77ZJXw8LkSAa8Dce9sZpVl+94gV/V8PzIba3cJP7MQnabMCAbtnsLUNHJQUiHEw+aR4b0WC+UuUXvgmhJ4PYC86pHE9sfQ0Uszhd/HyqFYbgbvHk5s0BG/A1qEXsgA6ObYk+TdBUY7NXd+Q0oCHMi5323tcdP6oZBa8zO18BTSKZkDqGdqtNEjDyG+Tj0/mgrSDskJVcYDIw0L08P/pq+muyhdnTacEHaMIEvvlKwK5LYhER08njttr+YbdRSbRlBYRydiR0XRFjIEfjdIYbR6nGfTR1ZyFB05fFex4OshZGwHQMCghl/ktfCUAREKP4HTU55sU58NOr8Zq4gdw6qBj0hCYX9oiVoYKmlRp1HW6NQXdeCpTgs=
+    on:
+      tags: true

@@ -1,0 +1,15 @@
+//====================================================|
+// TAG
+
+
+//--------------------------| Root
+
+.root {
+  display: block;
+  max-width: 100%;
+  padding: 0.1rem 0.3rem;
+  clear: both;
+  cursor: default;
+  border: map-get($roles-borders-wrappers, 'tag');
+  border-radius: map-get($roles-borders-radiuses, 'tag');
+}
