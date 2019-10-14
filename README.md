@@ -1,4 +1,4 @@
-# Daniela Metodieva’s CV
+# Nina Metodieva’s CV
 
 [![Travis](https://img.shields.io/travis/ninametodieva/cv.svg)](https://travis-ci.org/ninametodieva/cv) [![David](https://img.shields.io/david/ninametodieva/cv.svg)](https://david-dm.org/ninametodieva/cv) [![David](https://img.shields.io/david/dev/ninametodieva/cv.svg)](https://david-dm.org/ninametodieva/cv?type=dev) [![GitHub release](https://img.shields.io/github/release/ninametodieva/cv.svg)](https://github.com/ninametodieva/cv/releases/latest)
 
