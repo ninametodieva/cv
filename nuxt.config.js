@@ -20,7 +20,7 @@ export default {
     host: '0.0.0.0' // default: localhost
   },
 
-  dir,
+  dir: dir(),
 
   /*
    ** Headers of the page
