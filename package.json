@@ -1,8 +1,8 @@
 {
   "name": "cv",
-  "description": "Nina Metodieva’s CV",
   "title": "Nina Metodieva’s professional CV",
   "short_title": "Nina’s CV",
+  "description": "An interactive copy of Nina Metodieva’s professional résumé",
   "version": "2.2.0",
   "license": "UNLICENSED",
   "repository": {
