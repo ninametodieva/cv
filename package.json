@@ -9,11 +9,11 @@
     "type": "git",
     "url": "git://github.com/ninametodieva/cv.git"
   },
-  "homepage": "http://ninametodieva.github.io",
+  "homepage": "https://ninametodieva.github.io",
   "author": {
     "name": "Nina Metodieva",
     "email": "nixy.petrova@gmail.com",
-    "url": "http://ninametodieva.github.io"
+    "url": "https://ninametodieva.github.io"
   },
   "private": true,
   "keywords": [
