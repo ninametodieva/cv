@@ -10,7 +10,7 @@ import plugins from 'cv-assets/config/nuxt/plugins';
 import i18nConfig from 'cv-assets/config/nuxt/modules/i18n';
 import css from 'cv-assets/config/nuxt/css';
 import styleResources from 'cv-assets/config/nuxt/styleResources';
-import { author, description, homepage, title, version } from './package.json';
+import { author, description, homepage, title, short_title, version } from './package.json';
 
 export default {
   mode: 'spa',
@@ -69,6 +69,7 @@ export default {
     ['nuxt-i18n', i18nConfig],
     ...modules({
       title,
+      short_name: short_title,
       author,
       description
     })
