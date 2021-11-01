@@ -40,7 +40,7 @@
     }
   },
   "devDependencies": {
-    "cv-assets": "https://github.com/methodev/cv-assets#v1.10.3",
-    "dev-assets": "https://github.com/methodev/dev-assets#v1.3.7"
+    "cv-assets": "https://github.com/methodev/cv-assets#v1.10.7",
+    "dev-assets": "https://github.com/methodev/dev-assets#v1.4.0"
   }
 }
