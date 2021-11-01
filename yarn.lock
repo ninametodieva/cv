@@ -3180,9 +3180,9 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
-"cv-assets@https://github.com/methodev/cv-assets#v1.10.3":
-  version "1.10.3"
-  resolved "https://github.com/methodev/cv-assets#5d6a6e21d06261353f61424f9bf260e07d7f1964"
+"cv-assets@https://github.com/methodev/cv-assets#v1.10.7":
+  version "1.10.7"
+  resolved "https://github.com/methodev/cv-assets#866ec4161d162364aca5f872aa0623455731debc"
   dependencies:
     contentful "^7.14.2"
     lodash "^4.17.15"
@@ -3347,9 +3347,9 @@ detect-libc@^1.0.3:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
   integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
 
-"dev-assets@https://github.com/methodev/dev-assets#v1.3.7":
-  version "1.3.7"
-  resolved "https://github.com/methodev/dev-assets#3216908a7c85c82d854358c2404e6e5765b8c476"
+"dev-assets@https://github.com/methodev/dev-assets#v1.4.0":
+  version "1.4.0"
+  resolved "https://github.com/methodev/dev-assets#89f96d5e34199832f673a0aeba384bf65c73df80"
   dependencies:
     "@nuxtjs/dotenv" "^1.4.1"
     "@nuxtjs/eslint-config" "^2.0.2"

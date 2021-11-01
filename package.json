@@ -3,17 +3,17 @@
   "title": "Nina Metodieva’s professional CV",
   "short_title": "Nina’s CV",
   "description": "An interactive copy of Nina Metodieva’s professional résumé",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "git://github.com/ninametodieva/cv.git"
   },
-  "homepage": "https://ninametodieva.github.io",
+  "homepage": "https://nina.metodiev.pro",
   "author": {
     "name": "Nina Metodieva",
     "email": "nixy.petrova@gmail.com",
-    "url": "https://ninametodieva.github.io"
+    "url": "https://nina.metodiev.pro"
   },
   "private": true,
   "keywords": [
@@ -40,7 +40,7 @@
     }
   },
   "devDependencies": {
-    "cv-assets": "https://github.com/methodev/cv-assets#v1.10.3",
-    "dev-assets": "https://github.com/methodev/dev-assets#v1.3.7"
+    "cv-assets": "https://github.com/methodev/cv-assets#v1.10.7",
+    "dev-assets": "https://github.com/methodev/dev-assets#v1.4.0"
   }
 }
