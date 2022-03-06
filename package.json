@@ -3,17 +3,17 @@
   "title": "Nina Metodieva’s professional CV",
   "short_title": "Nina’s CV",
   "description": "An interactive copy of Nina Metodieva’s professional résumé",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
     "url": "git://github.com/ninametodieva/cv.git"
   },
-  "homepage": "https://nina.metodiev.pro",
+  "homepage": "https://nina.metodieva.pro",
   "author": {
     "name": "Nina Metodieva",
     "email": "nixy.petrova@gmail.com",
-    "url": "https://nina.metodiev.pro"
+    "url": "https://nina.metodieva.pro"
   },
   "private": true,
   "keywords": [
